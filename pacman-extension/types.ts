@@ -107,6 +107,7 @@ export interface ThemePalette {
   floor: string;
   gridLine: string;
   pellet: string;
+  contributionLevels: string[];
   powerPellet: string;
   pacman: string;
   frightenedGhost: string;

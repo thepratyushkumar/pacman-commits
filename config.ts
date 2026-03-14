@@ -46,7 +46,7 @@ export const config: GameConfig = {
   useLiveContributionData: readBoolean("PACMAN_USE_LIVE_DATA", true),
   maxTurns: clamp(Math.round(readNumber("PACMAN_MAX_TURNS", 520)), 120, 2_000),
   frightenedTurns: clamp(Math.round(readNumber("PACMAN_FRIGHTENED_TURNS", 18)), 6, 60),
-  cellSize: clamp(Math.round(readNumber("PACMAN_CELL_SIZE", 18)), 14, 30),
+  cellSize: clamp(Math.round(readNumber("PACMAN_CELL_SIZE", 21)), 14, 30),
   outputDir: new URL("./dist/", cwdUrl),
 };
 
